@@ -31,7 +31,7 @@
 .item h1 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 2.3rem; 
+  font-size: 2.3rem;
 }
 
 .item p {
@@ -43,7 +43,7 @@
 
 .item button {
   position: absolute;
-  background:hsl(0, 0%, 95%);
+  background: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
   text-align: center;
   padding: 12px 18px;
@@ -71,15 +71,15 @@
   border-bottom-right-radius: 10px;
 }
 
-.first button{
+.first button {
   color: hsl(31, 77%, 52%);
 }
 
-.second button{
+.second button {
   color: hsl(184, 100%, 22%);
 }
 
-.third button{
+.third button {
   color: hsl(179, 100%, 13%);
 }
 
@@ -93,13 +93,16 @@ button:hover {
     flex-direction: column;
     padding: 5rem 0rem;
   }
+
   .item {
     min-width: 22rem;
   }
+
   .first {
     border-bottom-left-radius: 0;
     border-top-right-radius: 10px;
   }
+
   .third {
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
