@@ -96,4 +96,12 @@ button:hover {
   .item {
     min-width: 22rem;
   }
+  .first {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+  .third {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
 }
